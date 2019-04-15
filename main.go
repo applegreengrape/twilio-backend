@@ -19,8 +19,8 @@
  func PostHandler(w http.ResponseWriter, r *http.Request) {
 
 	 // Set initial variables
-	 accountSid := "ACb5e52d7d1132796713ba949153359e67"
-	 authToken := "2fcc5e58a80375d4c6a574979f274c8a"
+	 accountSid := " "
+	 authToken := " "
 	 urlStr := "https://api.twilio.com/2010-04-01/Accounts/" + accountSid + "/Messages.json"
 
 	if r.Method == "POST" {
