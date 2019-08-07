@@ -31,7 +31,7 @@
 
 	 // Build out the data for our message
 	 v := url.Values{}
-	 v.Set("To","+447835217316")
+	 v.Set("To","+44*********")
 	 v.Set("From","+447479275693")
 	 v.Set("Body", string(body))
 	 rb := *strings.NewReader(v.Encode())
